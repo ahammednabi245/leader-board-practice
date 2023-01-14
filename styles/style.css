@@ -136,11 +136,12 @@ nav ul li a{
 
     nav ul li a{
         font-size: 16px;
+        overflow: scroll;
     }
 
 }
 
-@media (max-width: 858px){
+@media (max-width: 896px){
     .checkbtn{
         display: block;
     }
@@ -153,6 +154,7 @@ nav ul li a{
         left: -100%;
         text-align: center;
         transition: all .5s;
+        overflow: scroll;
     }
 
     nav ul li{
